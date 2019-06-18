@@ -22,20 +22,21 @@ parallels ``lat1/lat2``.
 
 
 
-.. code-block:: python
+.. code-block:: default
 
     import pygmt
 
     fig = pygmt.Figure()
+    # Use the ISO country code for Brazil and add a padding of 2 degrees (+R2)
     fig.coast(
-        region="BR+R2", frame="afg", land="gray", borders=1, projection="B-55/-15/-25/0/8i"
+        projection="B-55/-15/-25/0/8i", region="BR+R2", frame="afg", land="gray", borders=1
     )
     fig.show()
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  1.478 seconds)
+   **Total running time of the script:** ( 0 minutes  1.404 seconds)
 
 
 .. _sphx_glr_download_projections_albers.py:

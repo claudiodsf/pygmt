@@ -33,6 +33,26 @@ This file is a placeholder and not included in the docs.
 
 .. raw:: html
 
+    <div class="sphx-glr-thumbcontainer" tooltip="Welcome to PyGMT! Here we&#x27;ll cover some of basic concepts, like creating simple figures and nam...">
+
+.. only:: html
+
+    .. figure:: /tutorials/images/thumb/sphx_glr_first-figure_thumb.png
+
+        :ref:`sphx_glr_tutorials_first-figure.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /tutorials/first-figure
+
+.. raw:: html
+
     <div class="sphx-glr-thumbcontainer" tooltip="Setting the style of the map frames, ticks, etc, is handled by the ``frame`` argument that all ...">
 
 .. only:: html
@@ -50,26 +70,6 @@ This file is a placeholder and not included in the docs.
    :hidden:
 
    /tutorials/frames
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="Welcome to PyGMT! Here we&#x27;ll cover some of basic concepts, like creating simple figures and nam...">
-
-.. only:: html
-
-    .. figure:: /tutorials/images/thumb/sphx_glr_overview_thumb.png
-
-        :ref:`sphx_glr_tutorials_overview.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /tutorials/overview
 
 .. raw:: html
 

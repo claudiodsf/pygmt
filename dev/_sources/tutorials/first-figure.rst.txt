@@ -1,10 +1,10 @@
 .. note::
     :class: sphx-glr-download-link-note
 
-    Click :ref:`here <sphx_glr_download_tutorials_overview.py>` to download the full example code
+    Click :ref:`here <sphx_glr_download_tutorials_first-figure.py>` to download the full example code
 .. rst-class:: sphx-glr-example-title
 
-.. _sphx_glr_tutorials_overview.py:
+.. _sphx_glr_tutorials_first-figure.py:
 
 
 Making your first figure
@@ -20,7 +20,7 @@ All modules and figure generation is accessible from the :mod:`pygmt` top level
 package:
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     import pygmt
@@ -38,7 +38,7 @@ All figure generation in PyGMT is handled by the :class:`pygmt.Figure` class.
 Start a new figure by creating an instance of this class:
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig = pygmt.Figure()
@@ -54,7 +54,7 @@ automatic frame and ticks around a given longitude and latitude bound, set the
 projection to Mercator (``M``), and the figure width to 8 inches:
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig.basemap(region=[-90, -70, 0, 20], projection="M8i", frame=True)
@@ -69,7 +69,7 @@ Now we can add coastlines using :meth:`pygmt.Figure.coast` to this map using the
 default resolution, line width, and color:
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig.coast(shorelines=True)
@@ -83,7 +83,7 @@ default resolution, line width, and color:
 To see the figure, call :meth:`pygmt.Figure.show`:
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig.show()
@@ -91,7 +91,7 @@ To see the figure, call :meth:`pygmt.Figure.show`:
 
 
 
-.. image:: /tutorials/images/sphx_glr_overview_001.png
+.. image:: /tutorials/images/sphx_glr_first-figure_001.png
     :class: sphx-glr-single-img
 
 
@@ -101,7 +101,7 @@ You can also set the map region, projection, and frame type directly in other me
 without calling :meth:`gmt.Figure.basemap`:
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig = pygmt.Figure()
@@ -111,7 +111,7 @@ without calling :meth:`gmt.Figure.basemap`:
 
 
 
-.. image:: /tutorials/images/sphx_glr_overview_002.png
+.. image:: /tutorials/images/sphx_glr_first-figure_002.png
     :class: sphx-glr-single-img
 
 
@@ -151,10 +151,10 @@ will be part of the future 6.0 release. A few are PyGMT exclusive (like the
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  2.246 seconds)
+   **Total running time of the script:** ( 0 minutes  2.111 seconds)
 
 
-.. _sphx_glr_download_tutorials_overview.py:
+.. _sphx_glr_download_tutorials_first-figure.py:
 
 
 .. only :: html
@@ -166,13 +166,13 @@ will be part of the future 6.0 release. A few are PyGMT exclusive (like the
 
   .. container:: sphx-glr-download
 
-     :download:`Download Python source code: overview.py <overview.py>`
+     :download:`Download Python source code: first-figure.py <first-figure.py>`
 
 
 
   .. container:: sphx-glr-download
 
-     :download:`Download Jupyter notebook: overview.ipynb <overview.ipynb>`
+     :download:`Download Jupyter notebook: first-figure.ipynb <first-figure.ipynb>`
 
 
 .. only:: html

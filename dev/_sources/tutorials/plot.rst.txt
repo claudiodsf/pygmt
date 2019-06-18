@@ -17,7 +17,7 @@ automatically downloaded and saved to a cache directory the first time you use t
 (usually ``~/.gmt/cache``).
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     import pygmt
@@ -34,7 +34,7 @@ Japan (:func:`pygmt.datasets.load_japan_quakes`). The data is loaded as a
 :class:`pandas.DataFrame`.
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     data = pygmt.datasets.load_japan_quakes()
@@ -74,7 +74,7 @@ We'll use :meth:`pygmt.Figure.plot` method to plot circles on the locations of t
 hypocenters of the earthquakes.
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig = pygmt.Figure()
@@ -100,7 +100,7 @@ the ``sizes`` argument. Because the magnitude is on a logarithmic scale, it help
 show the differences by scaling the values using a power law.
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig = pygmt.Figure()
@@ -134,7 +134,7 @@ We can also map the colors of the markers to the depths by passing an array to t
 matplotlib colormap "viridis".
 
 
-.. code-block:: python
+.. code-block:: default
 
 
     fig = pygmt.Figure()
@@ -170,7 +170,7 @@ matplotlib colormap "viridis".
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  4.473 seconds)
+   **Total running time of the script:** ( 0 minutes  4.186 seconds)
 
 
 .. _sphx_glr_download_tutorials_plot.py:

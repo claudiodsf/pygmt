@@ -5,10 +5,10 @@
 
 Computation times
 =================
-**00:07.362** total execution time for **projections** files:
+**00:06.939** total execution time for **projections** files:
 
-- **00:02.032**: :ref:`sphx_glr_projections_cassini.py` (cassini.py)
-- **00:01.557**: :ref:`sphx_glr_projections_lambert_azimuthal.py` (lambert_azimuthal.py)
-- **00:01.478**: :ref:`sphx_glr_projections_albers.py` (albers.py)
-- **00:01.174**: :ref:`sphx_glr_projections_mercator.py` (mercator.py)
-- **00:01.120**: :ref:`sphx_glr_projections_cyl_stereo.py` (cyl_stereo.py)
+- **00:01.890**: :ref:`sphx_glr_projections_cassini.py` (``cassini.py``)
+- **00:01.463**: :ref:`sphx_glr_projections_lambert_azimuthal.py` (``lambert_azimuthal.py``)
+- **00:01.404**: :ref:`sphx_glr_projections_albers.py` (``albers.py``)
+- **00:01.142**: :ref:`sphx_glr_projections_mercator.py` (``mercator.py``)
+- **00:01.040**: :ref:`sphx_glr_projections_cyl_stereo.py` (``cyl_stereo.py``)
